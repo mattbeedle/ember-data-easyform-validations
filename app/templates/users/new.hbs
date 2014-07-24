@@ -1,0 +1,15 @@
+<div class="row">
+  {{#form-for this wrapper="bootstrap-horizontal"}}
+  {{input firstName}}
+  {{input lastName}}
+  {{input email}}
+  {{input age}}
+  {{input readTerms}}
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button class="btn btn-default" {{action cancel on="click"}}>Cancel</button>
+      {{submit classNames="btn btn-primary"}}
+    </div>
+  </div>
+  {{/form-for}}
+</div>

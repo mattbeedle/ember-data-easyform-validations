@@ -1,0 +1,26 @@
+<h2>Users</h2>
+
+<p>{{#link-to 'users.new' classNames="btn btn-primary btn-sm"}}New User{{/link-to}}
+
+{{outlet form}}
+
+<table class="table table-striped table-bordered table-highlight">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each controller}}
+  {{#unless isNew}}
+  <tr>
+    <td>{{name}}</td>
+    <td>{{email}}</td>
+    <td>{{age}}</td>
+  </tr>
+  {{/unless}}
+  {{/each}}
+  </tbody>
+</table>

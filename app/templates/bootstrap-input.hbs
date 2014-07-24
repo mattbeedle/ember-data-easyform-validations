@@ -1,0 +1,9 @@
+<div class="form-group">
+  {{label-field propertyBinding="view.property" textBinding="view.label"}}
+  <div class="{{unbound view.wrapperConfig.controlsWrapperClass}}">
+    {{input-field propertyBinding="view.property" classNames="form-control" inputOptionsBinding="view.inputOptionsValues"}}
+    {{#if view.showError}}
+    {{error-field propertyBinding="view.property"}}
+    {{/if}}
+  </div>
+</div>
