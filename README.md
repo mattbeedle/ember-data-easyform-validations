@@ -1,6 +1,11 @@
 # Ember-data-easyform-validations
 
-This README outlines the details of collaborating on this Ember application.
+An example of using [ember-easyForm](https://github.com/dockyard/ember-easyForm)
+with [ember-validations](https://github.com/dockyard/ember-validations) and
+[ember-data](https://github.com/emberjs/data).
+
+View the working application at:
+[http://ember-easyform-validations.herokuapp.com/](http://ember-easyform-validations.herokuapp.com/)
 
 ## Installation
 
@@ -12,14 +17,5 @@ This README outlines the details of collaborating on this Ember application.
 
 * `ember server`
 * Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
 
 For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
